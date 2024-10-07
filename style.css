@@ -1,0 +1,146 @@
+/* Estilo global */
+body {
+    background-color: #FFE4B5;
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Links no menu */
+#menu-h ul {
+    padding-top: 20px;
+}
+
+
+/* Títulos */
+h1, h2 {
+    text-align: center;
+    color: #1c148c; /* Cor unificada para o site */
+}
+
+h1 {
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+/* Texto */
+p {
+    text-align: justify;
+    font-size: 20px;
+    padding: 15px;
+}
+
+ul {
+    font-size: 18px;
+}
+
+/* Botão de voltar ao topo */
+#link-topo {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #B22222;
+    padding: 10px; /* Aumentei o padding para melhorar a usabilidade */
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333;
+    border-radius: 5px; /* Adiciona borda arredondada */
+    transition: background-color 0.3s ease;
+}
+
+#link-topo:hover {
+    background-color: #00796b; /* Cor ajustada no hover */
+}
+
+/* Outras classes e layouts */
+.center {
+    text-align: center;
+    justify-content: center;
+}
+
+.borda {
+    color: black;
+    background-color: #B22222;
+}
+
+.espaco-texto {
+    background: rgba(248, 165, 11, 0.2);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.aolado, .aolado1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#banner {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo do Menu */
+#menu-h {
+    background-color: #FFD700; /* Fundo amarelo */
+    padding: 5px 0; /* Espaçamento vertical no menu */
+}
+
+#menu-h ul {
+    max-width: 1000px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#menu-h ul li {
+    display: inline; /* Exibe os itens inline */
+}
+
+#menu-h li a {
+    color: #000080; /* Letra azul */
+    font-size: 24px; /* Tamanho maior */
+    font-family: 'Poppins', sans-serif; /* Fonte estilizada */
+    text-decoration: none;
+    text-transform: uppercase; /* Texto em maiúsculas */
+    font-weight: bold; /* Negrito para destaque */
+    padding: 10px 20px; /* Espaçamento interno dos links */
+    display: inline-block; /* O link ocupa toda a área do item */
+    transition: background-color 0.3s ease;
+}
+
+#menu-h li a:hover {
+    background-color: #4150fa; /* Alteração de cor no hover */
+    color: #FFF; /* Texto branco ao passar o mouse */
+}
+
+.container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+.enedina-photo {
+    float: right;
+    width: 400px;  /* Diminuímos o tamanho da foto */
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+}
